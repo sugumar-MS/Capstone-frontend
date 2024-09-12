@@ -14,7 +14,7 @@ const EditAuctionItem = () => {
 
 	useEffect(() => {
 		const fetchAuctionItem = async () => {
-			const res = await axios.get(`https://capstone-backend-se7v.onrender.com/api/auctions/${id}`);
+			const res = await axios.get(`https://capstone-backend-1-q22o.onrender.com/api/auctions/${id}`);
 			setAuctionItem(res.data);
 		};
 		fetchAuctionItem();
@@ -30,7 +30,7 @@ const EditAuctionItem = () => {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-		await axios.put(`https://capstone-backend-se7v.onrender.com/api/auctions/${id}`, auctionItem);
+		await axios.put(`https://capstone-backend-1-q22o.onrender.com/api/auctions/${id}`, auctionItem);
 		navigate(`/auction/${id}`);
 	};
 

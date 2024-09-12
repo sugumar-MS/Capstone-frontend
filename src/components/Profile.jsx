@@ -25,7 +25,7 @@ function Profile() {
 			if (token) {
 				try {
 					const res = await axios.post(
-						"https://capstone-backend-se7v.onrender.com/api/users/profile",
+						"https://capstone-backend-1-q22o.onrender.com/api/users/profile",
 						{},
 						{
 							headers: { Authorization: `Bearer ${token}` },
@@ -46,7 +46,7 @@ function Profile() {
 			if (token) {
 				try {
 					const res = await axios.post(
-						"https://capstone-backend-se7v.onrender.com/api/auctions/user",
+						"https://capstone-backend-1-q22o.onrender.com/api/auctions/user",
 						{},
 						{
 							headers: { Authorization: `Bearer ${token}` },
@@ -70,7 +70,7 @@ function Profile() {
 			if (token) {
 				try {
 					const res = await axios.post(
-						"https://capstone-backend-se7v.onrender.com/api/bids/user",
+						"https://capstone-backend-1-q22o.onrender.com/api/bids/user",
 						{},
 						{
 							headers: { Authorization: `Bearer ${token}` },
@@ -94,7 +94,7 @@ function Profile() {
 			if (token) {
 				try {
 					const res = await axios.post(
-						"https://capstone-backend-se7v.onrender.com/api/auctions/won",
+						"https://capstone-backend-1-q22o.onrender.com/api/auctions/won",
 						{},
 						{
 							headers: { Authorization: `Bearer ${token}` },

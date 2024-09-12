@@ -19,7 +19,7 @@ const CreateAuctionItem = () => {
 		if (token) {
 			try {
 				await axios.post(
-					"https://capstone-backend-se7v.onrender.com/api/auctions",
+					"https://capstone-backend-1-q22o.onrender.com/api/auctions",
 					{ title, description, startingBid, endDate },
 					{
 						headers: { Authorization: `Bearer ${token}` },
