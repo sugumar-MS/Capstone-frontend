@@ -13,7 +13,7 @@ function AuctionList() {
 
 	useEffect(() => {
 		const fetchAuctionItems = async () => {
-			const res = await axios.get("http://localhost:5000/api/auctions");
+			const res = await axios.get("https://capstone-backend-se7v.onrender.com/api/auctions");
 			setAuctionItems(res.data);
 			setSearchResults(res.data);
 			setTotalPages(Math.ceil(res.data.length / ITEMS_PER_PAGE));
