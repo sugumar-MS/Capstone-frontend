@@ -1,4 +1,4 @@
-## Auction Flatform - Frontend
+## 🎉 Auction Flatform - Frontend
 
 # It features:
 
@@ -20,6 +20,8 @@
 - vite.config.js: Configuration file for Vite, used for frontend build and development.
 - index.html: Main HTML file that serves as the entry point for the frontend application.
 
+# 🚀 Getting Started
+
 # Installation
 
 1. Navigate to the frontend directory:
@@ -35,6 +37,8 @@
 - Create a .env file in the frontend directory with the following content:
 
 `TARGET=http://localhost:5000 or url of backend`
+
+# 🏃‍♂️ Running the Project
 
 4. Start the frontend development server:
 
