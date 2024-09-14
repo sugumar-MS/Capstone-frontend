@@ -24,7 +24,7 @@ function Login() {
 		setLoading(true);
 		try {
 			const res = await axios.post(
-				"https://capstone-backend-1-q22o.onrender.com/api/users/login",
+				"/api/users/login",
 				{ email, password },
 				{ withCredentials: true }
 			);

@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AuctionList from "./components/AuctionList";
 import AuctionItem from "./components/AuctionItem";
@@ -13,7 +14,6 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import CreateAuctionItem from "./components/CreateAuctionItem";
 import EditAuctionItem from "./components/EditAuctionItem";
-
 
 function App() {
 	const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -74,7 +74,6 @@ function App() {
 							path="/auction/bid/:id"
 							element={<ProtectedRoute component={BidForm} />}
 						/>
-						
 					</Routes>
 				</div>
 			</Router>
