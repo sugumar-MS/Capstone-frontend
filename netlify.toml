@@ -1,0 +1,20 @@
+# Netlify configuration file
+
+[build]
+  # Build command for the React app
+  command = "npm run build"
+  # Directory where the build output will be published
+  publish = "dist"
+
+# Redirect all API requests to your backend on Render
+[[redirects]]
+  from = "/api/*"
+  to = "https://capstone-backend-1-q22o.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+# Catch-all redirect for SPA routing in React
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
